@@ -1,0 +1,163 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.timetable-container {
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.uni-logo {
+    color: #008080; /* Approximate teal color */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.naac-logo {
+    color: #cc0000;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    border: 2px solid #cc0000;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.header-text h1 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.header-text h2 {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.meta-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.meta-info p {
+    margin: 2px 0;
+}
+
+.coordinator {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+/* Main Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: #e0e0e0;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.sr-col { width: 40px; }
+.time-col { width: 120px; }
+
+/* Slot Specific Styles */
+.time-slot {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.time-slot-alt {
+    font-size: 0.75rem;
+    font-style: italic;
+    background-color: #f9f9f9;
+}
+
+.lab-slot {
+    background-color: #fff;
+    font-size: 0.8rem;
+}
+
+.subject {
+    font-weight: bold;
+}
+
+.room {
+    font-size: 0.8rem;
+    color: #333;
+}
+
+.break-row td {
+    background-color: #ddd;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.time-note {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+/* Footer Info Table */
+.info-table {
+    font-size: 0.75rem;
+}
+
+.info-table th {
+    background-color: #e0e0e0;
+    font-size: 0.7rem;
+}
+
+.left-align {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Signatures */
+.signatures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 50px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.sig-block {
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 5px;
+    width: 200px;
+}
